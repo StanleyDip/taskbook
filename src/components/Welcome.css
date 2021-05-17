@@ -1,0 +1,89 @@
+body{
+background-color: #f0f2f5;
+font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif
+}
+.taskbook{
+    width: fit-content !important;
+    height: fit-content;
+    position: fixed;
+    top: 35% !important;
+    left: 11% !important;
+    padding: 0 20px;
+}
+.div-card{
+    position: fixed;
+    display: grid;
+    top: 25%;
+    left: 55%;
+    border-radius: 8px;
+    width: 400px !important;
+    height: 360px;
+    background-color:white;
+    text-align: center;
+}
+.center{
+    color: rgb(79, 129, 221);
+    font-weight:900;
+}
+.headline{
+    font-size: 24px;
+    width: 430px;
+    text-align: start;
+    color:#1c1e21;
+}
+.intro{
+display: grid;
+place-items: center;
+}
+a{
+    color: #3588f3 !important;
+}
+input{
+    margin: 20px;
+    width: 360px !important;
+    color: #c3c6ca;
+    border: 1px solid #ccd0d5;
+}
+.login{
+    width: 360px;
+   background-color: #1877f2;
+   margin-bottom: 8px;
+   border-radius: 6px;
+   height: 55px;
+}
+.intro--btn{
+    font-weight: bold;
+    font-size: 20px;
+}
+.create{
+    width: 220px;
+    border-radius: 8px;
+    background-color: #42B72A;
+    margin-top: 35px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    padding-top: 8px;
+}
+@media screen and (max-width: 750px) {
+    .taskbook{
+        width: fit-content !important;
+        height: fit-content;
+        position: fixed;
+        top: 5% !important;
+        left: 11% !important;
+        padding: 0 20px;
+    }
+    .div-card{
+        position: fixed;
+        display: grid;
+        top: 25%;
+        left: 5%;
+        border-radius: 8px;
+        width: 400px !important;
+        height: 360px;
+        background-color:white;
+        text-align: center;
+    }
+}
