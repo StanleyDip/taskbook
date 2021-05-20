@@ -1,6 +1,6 @@
 .signup-card{
     position: fixed;
-    margin-top: -400px; 
+    /* margin-top: -400px;  */
     margin-left: -330px;
     overflow: blur;
     width: 432px;
@@ -19,7 +19,6 @@
     position: fixed;
     float: left;
     margin-left: 10px;
-
 }
 
 .crossbar{
@@ -134,7 +133,6 @@
         position: fixed;
         margin-top: -70%; 
         margin-right:15%; 
-    
         overflow: blur;
         width: 432px;
         height: 530px;

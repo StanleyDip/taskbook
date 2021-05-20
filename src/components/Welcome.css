@@ -50,6 +50,7 @@ input{
    margin-bottom: 8px;
    border-radius: 6px;
    height: 55px;
+   margin: auto;
 }
 .intro--btn{
     font-weight: bold;

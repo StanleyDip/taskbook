@@ -1,0 +1,55 @@
+.settings-container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #f5efef;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 2px;
+    background-color: white;
+    box-shadow:3px 3px 5px 6px #ccc;
+}
+.inline-text{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 60px;
+   
+}
+.goback{
+    position: relative;
+    margin-left: -45px;
+    padding-right: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 8px;
+    
+}
+.goback:hover{
+    cursor: pointer;
+    background-color: #EBEDF0;
+    
+    
+}
+.settings-class-1st{
+   width: 100%;
+   height: 45px;
+   margin-top: 90px;
+   margin-bottom:5px;
+   padding-top: 5px;
+}
+.settings-class{
+    width: 100%;
+    height: 45px;
+    margin-bottom:5px ;
+    padding-top: 5px;
+}
+
+.settings-class-1st:hover,.settings-class:hover{
+    border-radius: 10px;
+    background-color: #F2F3F5;
+}
