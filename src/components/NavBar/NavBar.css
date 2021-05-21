@@ -1,7 +1,7 @@
 .Navbar-header{
   position: sticky;
     width: 100%;
-    height: 50px;
+    height: 65px;
     background-color: white;
 }
 .taskbar{
@@ -11,17 +11,17 @@
 .right-icon{
   position: sticky;
   float: right;
-  margin-top: 0px;
+  margin-top: 1%;
   height: 40px;
   width: 40px;
-  background-color: #c2c8cf;
+  background-color: #EBEDF0;
   border-radius: 50%;
   margin-right:20px ;
   text-align: center;
-  padding-top: 0.65rem;
+  padding-top: 0.7rem;
 }
 .right-icon:hover{
-background-color: #999da1;
+background-color: #CCD0D5;
 }
 .user-icon{
   max-width: 10% !important; 

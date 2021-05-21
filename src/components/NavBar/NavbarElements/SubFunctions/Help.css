@@ -1,0 +1,11 @@
+.help-container{
+    width: 400px;
+    height: 250px;
+    border: 1px solid #f5efef;
+    border-radius: 5px;
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 2px;
+    box-shadow:3px 3px 5px 6px #ccc;
+}
