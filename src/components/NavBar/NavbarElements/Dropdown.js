@@ -27,7 +27,7 @@ const Dropdown=()=> {
         <div className="notification">
             
             <div className="user-info-1st">
-                <img className="dropdown-avatar" src={image}/>
+                <img className="dropdown-avatar" src={image} alt=""/>
                 <h3 className="dropdown-username">{user.name}</h3> <br/>
                 <p className="feedback-profile">See your profile</p> <br/>
             </div>
@@ -54,9 +54,9 @@ const Dropdown=()=> {
         </div>
             :
             ( 
-           onHelp && (<Help setOnHelp={setOnHelp} />) ||
-           onSetting &&( <SettingsAndPrivacy setOnSettings={setOnSettings}/>) ||
-           onDisplay &&(<Display setOnDisplay={setOnDisplay}/>)
+           (onHelp && (<Help setOnHelp={setOnHelp} />) )||
+           (onSetting &&( <SettingsAndPrivacy setOnSettings={setOnSettings}/>) )||
+           (onDisplay &&(<Display setOnDisplay={setOnDisplay}/>))
            )
 
             

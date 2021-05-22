@@ -35,46 +35,46 @@ const MenuItems=() =>{
             <br/> Campus
         </div>
         
-        <div className="menu-img"><img src={Events}/>
+        <div className="menu-img"><img src={Events} alt=""/>
             <br/> Events
         </div>
 
-        <div className="menu-img"><img src={Friends}/>
+        <div className="menu-img"><img src={Friends} alt=""/>
             <br/> Friends
         </div>
-        <div className="menu-img"><img src={Groups}/>
+        <div className="menu-img"><img src={Groups} alt=""/>
             <br/> Groups
         </div>
-        <div className="menu-img"><img src={NewsFeed}/>
+        <div className="menu-img"><img src={NewsFeed} alt=""/>
             <br/> NewsFeed
         </div>
-        <div className="menu-img"><img src={Pages}/>
+        <div className="menu-img"><img src={Pages} alt=""/>
             <br/> Pages
         </div>
         <hr/>
 
         <h4 className="menu-header">Entertainment</h4>
         <p className="menu-para">Pass the time with videos, games and posts that interest you.</p>
-        <div className="menu-img"><img src={GamingVideo}/>
+        <div className="menu-img"><img src={GamingVideo} alt=""/>
             <br/> Gaming Video
         </div>
-        <div className="menu-img"><img src={PlayGames}/>
+        <div className="menu-img"><img src={PlayGames} alt=""/>
             <br/> Play Games
         </div>
-        <div className="menu-img"><img src={Watch}/>
+        <div className="menu-img"><img src={Watch} alt=""/>
             <br/> Watch
         </div>
         <hr/>
 
         <h4 className="menu-header">Shopping</h4>
         <p className="menu-para">See what’s for sale, discover new brands and manage your payments.</p>
-        <div className="menu-img"><img src={FacebookPay}/>
+        <div className="menu-img"><img src={FacebookPay} alt=""/>
             <br/> Facebook Pay
         </div>
-        <div className="menu-img"><img src={MarketPlace}/>
+        <div className="menu-img"><img src={MarketPlace} alt=""/>
             <br/> Marketplace
         </div>
-        <div className="menu-img"><img src={Offers}/>
+        <div className="menu-img"><img src={Offers} alt=""/>
             <br/> Offers
         </div>
         <hr/>
@@ -82,26 +82,26 @@ const MenuItems=() =>{
 
     <h4 className="menu-header">Personal</h4>
         <p className="menu-para">Review everything that’s specific to your experience on Facebook.</p>
-        <div className="menu-img"><img src={RecentActivity}/>
+        <div className="menu-img"><img src={RecentActivity} alt=""/>
             <br/> Recent Ad Activity
         </div> 
-         <div className="menu-img"><img src={Memories}/>
+         <div className="menu-img"><img src={Memories} alt=""/>
             <br/> Memories
         </div> 
-        <div className="menu-img"><img src={Saved}/>
+        <div className="menu-img"><img src={Saved} alt=""/>
             <br/> Saved
         </div> 
-         <div className="menu-img"><img src={Weather}/>
+         <div className="menu-img"><img src={Weather} alt=""/>
             <br/> Weather
         </div>
         <hr/>
 
         <h4 className="menu-header">Professional</h4>
         <p className="menu-para">Grow your business or career with tools designed to help you achieve your goals.</p>
-        <div className="menu-img"><img src={Ads}/>
+        <div className="menu-img"><img src={Ads} alt=""/>
             <br/> Ads
         </div>
-        <div className="menu-img"><img src={Jobs}/>
+        <div className="menu-img"><img src={Jobs} alt=""/>
             <br/> Jobs
         </div>
         <hr/>
@@ -109,16 +109,16 @@ const MenuItems=() =>{
 
         <h4 className="menu-header">Community Resources</h4>
         <p className="menu-para">See the latest info about important topics and support causes that matter to you.</p>
-        <div className="menu-img"><img src={BloodDonation}/>
+        <div className="menu-img"><img src={BloodDonation} alt=""/>
             <br/> Blood Donations
         </div> 
-         <div className="menu-img"><img src={Covid19}/>
+         <div className="menu-img"><img src={Covid19} alt=""/>
             <br/> COVID-19 Information...
         </div> 
-        <div className="menu-img"><img src={CrisisResponse}/>
+        <div className="menu-img"><img src={CrisisResponse} alt=""/>
             <br/> Crisis Response
         </div> 
-         <div className="menu-img"><img src={FunRaisers}/>
+         <div className="menu-img"><img src={FunRaisers} alt=""/>
             <br/> Funraisers
         </div>
         <hr/>
@@ -126,10 +126,10 @@ const MenuItems=() =>{
 
         <h4 className="menu-header">More from Facebook</h4>
         <p className="menu-para">See more of the apps and services the Facebook company has to offer.</p>
-        <div className="menu-img"><img src={Messenger}/>
+        <div className="menu-img"><img src={Messenger} alt=""/>
             <br/> Messenger
         </div> 
-         <div className="menu-img"><img src={MessengerKids}/>
+         <div className="menu-img"><img src={MessengerKids} alt=""/>
             <br/> Messenger Kids
         </div> 
         </div>

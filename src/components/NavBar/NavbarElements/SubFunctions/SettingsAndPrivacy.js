@@ -7,7 +7,7 @@ const SettingsAndPrivacy=(props) =>{
     }
     return (
         <div className="settings-container">
-        <h2 className="inline-text"> <i class="fas fa-arrow-left fa-sm goback" onClick={goback}></i>  Settings & Privacy</h2>
+        <h2 className="inline-text"> <i className="fas fa-arrow-left fa-sm goback" onClick={goback}></i>  Settings & Privacy</h2>
        
             <div className="settings-class-1st" >
                 <i className="fas fa-cog dropdown-icon fa-lg"></i>  <h5 className="dropdown-css">Settings & Privacy</h5>
