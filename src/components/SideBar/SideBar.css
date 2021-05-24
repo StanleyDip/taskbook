@@ -1,8 +1,9 @@
 .sidebar-container{
+    position: absolute;
     width: 340px;
-    height: 200vh;
-     background-color:   #EBEDF0; 
-
+    height: fit-content;
+    background-color:   #EBEDF0; 
+    
 }
 .sidebar-container:hover{
     overflow: scroll;

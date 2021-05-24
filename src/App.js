@@ -6,14 +6,18 @@ import Posts from './components/Posts/Posts'
 import NavBar from "./components/NavBar/NavBar";
 import './index.css'
 function App() {
-  const [goToPost,setGoToPost]=useState(true);
+  const [goToPost,setGoToPost]=useState(false);
   return (
-    <NavBar/>
-    // <React.Fragment>
+    
+    
     //   {goToPost ? <Welcome setGoToPost={setGoToPost}/>
     //   :
-    //    <Posts/> }
-    // </React.Fragment>
+     <React.Fragment>
+      <NavBar/> 
+      <Posts/> 
+    
+  
+  </React.Fragment>
   );
 }
 

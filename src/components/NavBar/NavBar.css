@@ -4,9 +4,39 @@
     height: 65px;
     background-color: white;
 }
+.blue-big{
+  color:Dodgerblue;
+  font-size:40px;
+}
+.blue-small{
+  width: 100px;
+  height: 45px;
+  padding-left: 26px;
+  padding-top: 6px;
+  margin-right: 40px;
+  margin-left: 10px;
+  font-size:30px;
+  color: #b6b9bd;
+  border-radius: 6px;
+}
+.blue-small:hover{
+  background: #EBEDF0;
+  
+  
+}
 .taskbar{
-     transform: scaleX(-1);  
-     transform: rotate(180deg);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.search-bar{
+  border-radius: 20px;
+  width: 280px !important;
+  height: 38px !important;
+  position: relative;
+  top: -5px !important;
+  background-color: #f2f4f5;
+  text-align:start;
+  padding-left: 35px;
 }
 .right-icon{
   position: sticky;
@@ -23,12 +53,23 @@
 .right-icon:hover{
 background-color: #CCD0D5;
 }
+.right-icon:active{
+ color: dodgerblue;
+ background-color: rgb(180, 212, 243);
+  }
 .user-icon{
   max-width: 10% !important; 
   height: 40px;
 }
 p{
   float: left;
+}
+.placeholder-icon{
+  position: relative;
+  z-index: 1;
+  left: 50px;
+  top: -3px;
+  color: #b6b9bd;
 }
 /* .threedots{
 

@@ -4,6 +4,11 @@ import './NavBar.css'
 
 import Menu from '../NavBar/NavbarElements/Menu/Menu';
 const NavBar=()=> {
+ 
+    const myStyle={
+        color:'Dodgerblue',
+        fontSize:'26px'
+    }
     const [isDropdown,setIsDropdown]=useState(false);
     const [openMenu,setOpenMenu]=useState(false);
     const handleDropDown=()=>{
@@ -18,11 +23,14 @@ const NavBar=()=> {
     return (
         <React.Fragment>
          <div className="Navbar-header">
-         {/* <i class="fab fa-facebook taskbar"></i>
-         <i class="fas fa-home"></i>
-         <i class="fad fa-play-circle"></i>
-         <i class="fas fa-briefcase"></i>
-         <i class="fas fa-users"></i> */}
+         <i className="fab fa-facebook  blue-big taskbar"></i>
+         <span className="placeholder-icon"><i className="fas fa-search"></i></span>
+         <input type="search" className="search-bar"placeholder="Search facebook"/>
+         <i className="fas fa-home blue-small"></i> 
+         
+         <i className="fas fa-play-circle blue-small"></i>
+         <i className="fas fa-briefcase blue-small"></i>
+         <i className="fas fa-users blue-small"></i> 
     
          <i className="fas fa-caret-down right-icon fa-lg" onClick={handleDropDown}></i>
          <i className="fas fa-bell right-icon"></i>

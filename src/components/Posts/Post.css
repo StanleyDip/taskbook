@@ -158,3 +158,11 @@ body {
 .social-buttons span i {
   padding-right:4px;
 }
+.center{
+  width: 500px !important;
+  height: 470px !important;
+ position: fixed;
+ left:600px;
+  top:120px;
+ /* margin-top:90px; */
+}

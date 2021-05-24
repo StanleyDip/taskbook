@@ -28,6 +28,7 @@ const MenuItems=() =>{
     return (
       
     <div className="menu-items">
+        <span className="menu-icon"><i className="fas fa-search"></i></span>
         <input className="menu-search" placeholder=" Search Menu"type="search'"/>
         <h4 className="menu-header">Social</h4>
         <p className="menu-para">Connect with family, friends and  communities who shate your interests.</p>

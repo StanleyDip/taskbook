@@ -10,6 +10,7 @@
     margin-top: 2px;
     box-shadow:3px 3px 5px 6px #ccc;
     overflow: scroll;
+    z-index: 1;
 }
 .menu-items{
     position: relative;
@@ -40,6 +41,7 @@
     border-radius: 10px;
     background-color: #F2F3F5;
     width: 350px !important;
+    padding-left: 24px !important;
 }
 .menu-h2{
     margin-top: 5px;
@@ -79,4 +81,10 @@
     font-weight: bolder;
     margin: 15px;
 
+}
+.menu-icon{
+    position: relative;
+    top:49px;
+    left: 25px;
+    color: gray;
 }
