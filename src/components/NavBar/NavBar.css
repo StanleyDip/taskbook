@@ -1,5 +1,8 @@
 .Navbar-header{
-  position: sticky;
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   flex-direction: row;
     width: 100%;
     height: 65px;
     background-color: white;
@@ -39,23 +42,24 @@
   padding-left: 35px;
 }
 .right-icon{
-  position: sticky;
-  float: right;
   margin-top: 1%;
   height: 40px;
   width: 40px;
   background-color: #EBEDF0;
   border-radius: 50%;
-  margin-right:20px ;
-  text-align: center;
   padding-top: 0.7rem;
 }
 .right-icon:hover{
 background-color: #CCD0D5;
 }
-.right-icon:active{
+.dogerblued{
+  margin-top: 1%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding-top: 0.7rem;
  color: dodgerblue;
- background-color: rgb(180, 212, 243);
+ background-color: #ECF3FF;
   }
 .user-icon{
   max-width: 10% !important; 
@@ -71,6 +75,11 @@ p{
   top: -3px;
   color: #b6b9bd;
 }
-/* .threedots{
-
-} */
+@media screen and (max-width: 1000px) {
+  .blue-small{
+   display: none;
+  }
+  .search-bar,.placeholder-icon{
+    display: none;
+  }
+  }

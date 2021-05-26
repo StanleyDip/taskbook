@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Posts from './components/Posts/Posts'
 import NavBar from "./components/NavBar/NavBar";
 import './index.css'
+import CreatePost from "./components/CreatePost/CreatePost";
 function App() {
   const [goToPost,setGoToPost]=useState(false);
   return (
@@ -14,8 +15,9 @@ function App() {
     //   :
      <React.Fragment>
       <NavBar/> 
-      <Posts/> 
+      {/* <Posts/>  */}
     
+  <CreatePost/>
   
   </React.Fragment>
   );
