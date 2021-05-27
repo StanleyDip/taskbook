@@ -69,17 +69,30 @@ p{
   float: left;
 }
 .placeholder-icon{
-  position: relative;
+  position: fixed;
   z-index: 1;
-  left: 50px;
-  top: -3px;
+  left: 125px;
+  top: 25px;
   color: #b6b9bd;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .blue-small{
    display: none;
   }
   .search-bar,.placeholder-icon{
     display: none;
   }
+  .Navbar-header{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+     width: 100%;
+     height: 65px;
+     background-color: white;
+ }
+ .right-icon{
+   position: relative;
+   margin-top: 10px;
+ }
   }

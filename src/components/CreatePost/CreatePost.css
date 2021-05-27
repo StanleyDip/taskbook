@@ -71,3 +71,25 @@
 .cp{
     color: grey;
 }
+@media screen and (max-width: 600px) {
+    .createpost-container{
+        width: 450px;
+        height: 130px;
+        border: 1px solid #EBEDF0;
+        border-radius: 6px;
+        background-color: white;
+        position: fixed;
+        margin:auto;
+        z-index: -1;
+    }
+    .create-videos,.create-photos{
+        position: relative;
+        width: 140px;
+        height: 35px;
+        padding:8px !important;
+        margin-top: 75px;
+        margin-left: 0px;
+        margin-right: 5px;
+        border-radius: 9px;
+    }
+}
