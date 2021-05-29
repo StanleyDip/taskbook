@@ -1,0 +1,22 @@
+.contact-container{
+    position: fixed;
+    right: 5px;
+    top: 140px;
+    width: 300px;
+    height: 100vh;
+    background-color:   #EBEDF0; 
+    z-index: -1;
+    float: right !important;
+}
+.contact-icon{
+    color: gray;
+    padding-left:50px
+}
+.contact-icon:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .contact-container{
+        display: none;
+    }
+    }

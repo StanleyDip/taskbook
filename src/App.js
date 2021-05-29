@@ -6,6 +6,7 @@ import Posts from './components/Posts/Posts'
 import NavBar from "./components/NavBar/NavBar";
 import './index.css'
 import CreatePost from "./components/CreatePost/CreatePost";
+import RightSideContacts from "./components/SideBar/Contacts/RightSideContacts";
 function App() {
   const [goToPost,setGoToPost]=useState(false);
   return (
@@ -14,7 +15,8 @@ function App() {
     //   {goToPost ? <Welcome setGoToPost={setGoToPost}/>
     //   :
      <React.Fragment>
-      <NavBar/> 
+      <NavBar/>
+      <RightSideContacts/>
       {/* <Posts/>  */}
     
   <CreatePost/>
