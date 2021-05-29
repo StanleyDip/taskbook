@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/taskbook/static/css/main.43073190.chunk.css",
+    "main.css": "/taskbook/static/css/main.9ae8f335.chunk.css",
     "main.js": "/taskbook/static/js/main.dcbd28bb.chunk.js",
     "main.js.map": "/taskbook/static/js/main.dcbd28bb.chunk.js.map",
     "runtime-main.js": "/taskbook/static/js/runtime-main.5ee1d28d.js",
@@ -10,7 +10,7 @@
     "static/js/2.096e524d.chunk.js.map": "/taskbook/static/js/2.096e524d.chunk.js.map",
     "index.html": "/taskbook/index.html",
     "static/css/2.4f8976c6.chunk.css.map": "/taskbook/static/css/2.4f8976c6.chunk.css.map",
-    "static/css/main.43073190.chunk.css.map": "/taskbook/static/css/main.43073190.chunk.css.map",
+    "static/css/main.9ae8f335.chunk.css.map": "/taskbook/static/css/main.9ae8f335.chunk.css.map",
     "static/js/2.096e524d.chunk.js.LICENSE.txt": "/taskbook/static/js/2.096e524d.chunk.js.LICENSE.txt",
     "static/media/dp.91c4df08.jpg": "/taskbook/static/media/dp.91c4df08.jpg",
     "static/media/i1.337d5462.jpg": "/taskbook/static/media/i1.337d5462.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.5ee1d28d.js",
     "static/css/2.4f8976c6.chunk.css",
     "static/js/2.096e524d.chunk.js",
-    "static/css/main.43073190.chunk.css",
+    "static/css/main.9ae8f335.chunk.css",
     "static/js/main.dcbd28bb.chunk.js"
   ]
 }
